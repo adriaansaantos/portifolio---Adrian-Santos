@@ -14,6 +14,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -23,13 +27,13 @@ header {
     position: absolute;
     width: 100%;
     z-index: 100;
+    border: solid whit;
 }
 
-header h1 {
-    margin-top: 0.5rem;
-    font-family: Fair Prosper;
-    font-size: 40px;
-    color: white;
+header .logo {
+    width: 50%;
+    margin-top: 130px;
+    margin-right: 50px;
 }
 
 header h1:hover{
@@ -85,8 +89,18 @@ header nav:hover > a:not(:hover) {
     text-align: center;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 70px;
+    font-size: 57px;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'merienda';
+}
+.inicio .title p{
+    font-size: 30px;
+    font-family: 'merienda';
+}
+
+#IF{
+    font-size: 15px;
+    color: rgba(37, 245, 37, 0.737);
 }
 
 .sobre {
@@ -99,4 +113,5 @@ header nav:hover > a:not(:hover) {
 
 .sobre h1 {
     font-size: 40px;
+    text-align: center;
 }
