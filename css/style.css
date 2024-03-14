@@ -22,8 +22,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    padding: 0 5%;
+    height: 150px;
+    padding-left: 1%;
+    padding-right: 5%;
     position: absolute;
     width: 100%;
     z-index: 100;
@@ -31,8 +32,8 @@ header {
 }
 
 header .logo {
-    width: 50%;
-    margin-top: 130px;
+    width: 40%;
+    margin-top: 25px;
     margin-right: 50px;
 }
 
@@ -47,7 +48,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 750;
     padding: 8px 20px;
     border-radius: 99px;
@@ -60,7 +61,8 @@ header nav a.active {
 }
 
 header nav a:hover {
-    background: rgba(1, 147, 196, 0.500);
+    background: rgb(255, 255, 255);
+    color: #1a4991;
 }
 
 header nav:hover > a:not(:hover) {
@@ -70,7 +72,7 @@ header nav:hover > a:not(:hover) {
 .inicio {
     display: flex;
     height: 100dvh;
-    background: linear-gradient(to top, #D2E2FB 30%, #86A8DB);
+    background: linear-gradient(to top, #D2E2FB 20%, #1a4991);
     position: relative;
     overflow: hidden;
 }
