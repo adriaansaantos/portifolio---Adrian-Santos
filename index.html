@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Adrian Santos</title>
+    <title>Adrian Santos | Website Portfólio Pessoal</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <a id="inicio"href="./index.html"><img class="logo" src="./imagens/Logo consultoria de negócios moderno e preto.png" alt="logo Adrian"></a>
+        <a id="inicio" href="./index.html"><img class="logo" src="./imagens/Logo consultoria de negócios moderno e preto.png" alt="logo Adrian"></a>
         
         <nav>
             <a href="#inicio">Início</a>
@@ -16,37 +16,40 @@
             <a href="#Habilidade">Habilidades</a>
             <a href="#Projetos">Projetos</a>
             <a href="#Contatos">Contatos</a>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
 
     <section class="inicio">
-        <img src="/imagens/mount2.png" alt="mount2">
-        <img src="./imagens/mount1.png" alt="mount1">
-        <img src="./imagens/bush2.png" alt="bush2">
+        <img id="mount2" src="/imagens/mount2.png" alt="montanha2">
+        <img src="./imagens/mount1.png" class="montanha1">
+        <img src="./imagens/bush2.png" class="arbusto2">
+        
+        <h1 class="title">Portifólio Adrian Santos<hr><p>Estudante de Sistemas para Internet</hp><br><p><br><p id="IF">Instituto Federal de São Paulo - Câmpus Birigui</p>↓</p></h1>
 
-        <h1 class="title">Portifólio Adrian Santos<hr><p>Estudante de Sistemas para Internet</hp><br><p><p id="IF">Instituto Federal de São Paulo - Câmpus Birigui</p>↓</p></h1>
-
-        <img src="./imagens/bush1.png" alt="bush1">
-        <img src="./imagens/leaf2.png" alt="leaf2">
-        <img src="./imagens/leaf1.png" alt="leaf1">
+        <img src="./imagens/bush1.png" class="arbusto1">
+        <img src="./imagens/leaf2.png" class="folha2">
+        <img src="./imagens/leaf1.png" class="folha1">
         
         <br>
         
     </section>
 
-    <section id="Sobre" class="sobre">
-        
-        <h1>Sobre mim</h1>
-        <br>
-        <p>Estudante de Desenvolvimento Web e de Sistemas para internet, residente atualmente em Araçatuba-SP, Brasil</p>
-        <br>
-        <p>Tenho 22 anos atualmente cursando Tecnologia em Sistemas para a internet oferecido pelo Instituto Federal de São Paulo, meu entusiasmo pela tecnologia me trouxe até aqui onde posso explorar o vasto campo da programação e desenvolvimento de sistemas, e estou ansioso para traduzir minha paixão em soluções inovadoras.,</p>
-        <br>
-        <p>Estou buscando ativamente uma oportunidade como desenvolvedor júnior para aplicar e aprimorar minhas habilidades em um ambiente profissional. Estou empolgado para contribuir para projetos desafiadores, aprender com uma equipe talentosa e crescer profissionalmente nesta indústria empolgante.</p>
-        <br>
-        
+    <section class="sobre">
+        <div>
+            <h1 id="Sobre">Sobre mim</h1>
+            <br>
+            <p>Estudante de Desenvolvimento Web e de Sistemas para internet, residente atualmente em Araçatuba-SP, Brasil</p>
+            <br>
+            <p>Tenho 22 anos atualmente cursando Tecnologia em Sistemas para a internet oferecido pelo Instituto Federal de São Paulo, meu entusiasmo pela tecnologia me trouxe até aqui onde posso explorar o vasto campo da programação e desenvolvimento de sistemas, e estou ansioso para traduzir minha paixão em soluções inovadoras.,</p>
+            <br>
+            <p>Estou buscando ativamente uma oportunidade como desenvolvedor júnior para aplicar e aprimorar minhas habilidades em um ambiente profissional. Estou empolgado para contribuir para projetos desafiadores, aprender com uma equipe talentosa e crescer profissionalmente nesta indústria empolgante.</p>
+            <br>
+        </div>
     </section>
     
+    <script src="./Js/script.js"></script>
 </body>
-<script src="./Js/script.js"></script>
 </html>
