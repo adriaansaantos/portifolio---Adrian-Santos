@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrian Santos | Website Portfólio Pessoal</title>
+
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/habilidades.css">
 </head>
 <body>
     <header>
@@ -13,7 +15,7 @@
         <nav>
             <a href="#inicio">Início</a>
             <a href="#Sobre">Sobre</a>
-            <a href="#Habilidade">Habilidades</a>
+            <a href="#habilidades">Habilidades</a>
             <a href="#Projetos">Projetos</a>
             <a href="#Contatos">Contatos</a>
             <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
@@ -37,9 +39,9 @@
         
     </section>
 
-    <section class="sobre">
+    <section id="Sobre" class="sobre">
         <div>
-            <h1 id="Sobre">Sobre mim</h1>
+            <h1 >Sobre mim</h1>
             <br>
             <p>Estudante de Desenvolvimento Web e de Sistemas para internet, residente atualmente em Araçatuba-SP, Brasil</p>
             <br>
@@ -49,7 +51,63 @@
             <br>
         </div>
     </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <div class="centralizador">
+            <div class="habilidades-pd">
+                <h2 class="project">Habilidades</h2>
+                <div class="skills-descricao">
+                    <div class="conteiner-skills">
+                        <div class="skill-box skill1 html-skill">
+                            <img
+                                class="icones-habilidades"
+                                src="./imagens/image-removebg-preview (13).png"
+                                alt="html-icone"
+                            />
+                        </div>
+                        <div class="skill-box skill2 css-skill">
+                            <img
+                                class="icones-habilidades"
+                                src="./imagens/image-removebg-preview (14).png"
+                                alt="css-icone"
+                            />
+                        </div>
+                        <div class="skill-box skill3 js-skill">
+                            <img
+                                class="icones-habilidades"
+                                src="./imagens/3-js.png"
+                                alt="js-icone"
+                            />
+                        </div>
+                        
+                        <div class="skill-box skill9 git-skill">
+                            <img
+                                class="icones-habilidades"
+                                src="./imagens/9-git.png"
+                                alt="git-icone"
+                            />
+                        </div>
+                        <div class="skill-box skill10 github-skill">
+                            <img
+                                class="icones-habilidades"
+                                src="./imagens/10-github.png"
+                                alt="github-icone"
+                            />
+                        </div>
+                    </div>
+                    <div class="conteiner-descricao">
+                        <p class="texto-descricao">
+                            /* Passe o mouse por cima de alguma
+                            habilidade para ler a descrição */
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="./Js/script.js"></script>
+    <script src="./Js/habilidades.js"></script>
 </body>
 </html>
