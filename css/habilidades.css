@@ -3,8 +3,8 @@
 }
 
 .habilidades-pd {
-    padding-top: 230px;
-    padding-bottom: 200px;
+    padding-top: 190px;
+    padding-bottom: 140px;
 }
 
 .habilidades-pd h2 { 
@@ -12,10 +12,15 @@
     padding-bottom: 80px;
     font-family: 'merienda';
     color: white;
+    font-size: 40px;
 }
 
 .icones-habilidades{
     width: 60px;
+}
+
+.conteiner-habilidades{
+    align-items: center;
 }
 
 .skills-descricao {
@@ -30,14 +35,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 37px;
+    gap: 50px;
     max-width: 55%;
 }
 
 .skill-box {
-    height: 106px;
-    width: 106px;
-    background-color: #c4c4c47d;
+    height: 120px;
+    width: 120px;
+    background-color: #e3e3e3ae;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -49,16 +54,18 @@
 }
 
 .skill-box:hover {
-    background-color: white;
+    background-color: rgb(73, 73, 73);
     transform: scale(1.05);
 }
 
 .conteiner-descricao {
+    text-align: center;
     color: white;
     font-family: 'Quando', serif;
-    font-size: 20px;
-    max-width: 40%;
+    font-size: 25px;
+    max-width: 60%;
 }
+
 
 @media (max-width:1200px) {
 
@@ -74,9 +81,8 @@
     .skills-descricao {
         display: flex;
         flex-direction: column-reverse;
-        /* width: 535px; */
         margin: 0 auto;
-        gap:50px;
+        gap:60px;
         padding-bottom: 70px;
         align-items: center;
     }
@@ -102,67 +108,5 @@
 }
 
 .skill-box .icones-habilidades {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.5s;
 }
-
-.skill-box:hover .icones-habilidades {
-    opacity: 0;
-}
-
-.skill1{
-    background-image: url(../img/html2.svg);
-}
-
-.skill2 {
-    background-image: url(../img/css2.svg);
-}
-
-.skill3 {
-    background-image: url(../img/js2.svg);
-}
-
-.skill4 {
-    background-image: url(../img/node2.svg);
-}
-
-.skill5 {
-    background-image: url(../img/php2.svg);
-}
-
-.skill6 {
-    background-image: url(../img/java2.svg);
-}
-
-.skill7 {
-    background-image: url(../img/react2.svg);
-}
-
-.skill8 {
-    background-image: url(../img/styled\ 2.svg);
-}
-
-.skill9 {
-    background-image: url(../img/git2.svg);
-}
-
-
-.skill10 {
-    background-image: url(../img/github2.svg);
-}
-
-.skill11 {
-    background-image: url(../img/bootstrap2.svg);
-}
-
-.skill12 {
-    background-image: url(../img/typescript2.svg);
-}
-
-.skill13 {
-    background-image: url(../img/sass2.svg);
-}
-
-#fundo {
-    fill: red;
-}
-

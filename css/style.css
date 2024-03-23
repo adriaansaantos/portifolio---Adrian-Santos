@@ -7,6 +7,14 @@
     src: url(../fontes/Fair\ Prosper.ttf);
 }
 
+.img-topo img{
+    width: 50%;
+}
+.img-topo{
+    position: fixed;
+    bottom: 50px;
+    right: 1px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -28,9 +36,8 @@ header {
 }
 
 header .logo {
-    width: 40%;
-    margin-top: 25px;
-    margin-right: 50px;
+    width: 50%;
+    margin-top: 50px;
 }
 
 header h1:hover{
@@ -113,8 +120,13 @@ header nav:hover > a:not(:hover) {
 }
 
 .sobre h1 {
+    font-family: 'Merienda';
     font-size: 40px;
     box-shadow: solid black;
+}
+
+.sobre p{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
