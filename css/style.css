@@ -7,13 +7,17 @@
     src: url(../fontes/Fair\ Prosper.ttf);
 }
 
-.img-topo img{
+.img-voltatopo img{
     width: 50%;
 }
 
-.img-topo{
+.img-voltatopo{
     position: fixed;
     bottom: 50px;
+    right: -500px;
+}
+
+.show-button .img-voltatopo{
     right: 1px;
 }
 
