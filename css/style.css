@@ -10,11 +10,13 @@
 .img-topo img{
     width: 50%;
 }
+
 .img-topo{
     position: fixed;
     bottom: 50px;
     right: 1px;
 }
+
 * {
     margin: 0;
     padding: 0;

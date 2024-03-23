@@ -54,8 +54,8 @@
 }
 
 .skill-box:hover {
-    background-color: rgb(73, 73, 73);
-    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.40);
 }
 
 .conteiner-descricao {
