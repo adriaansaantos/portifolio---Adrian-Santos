@@ -1,0 +1,15 @@
+
+.projetos {
+}
+
+.projetos-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projetos-img img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
