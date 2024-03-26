@@ -80,7 +80,7 @@ header nav:hover > a:not(:hover) {
 
 .inicio {
     display: flex;
-    height: 112dvh;
+    height: 115dvh;
     background: linear-gradient(to top, #7284a4 20%, #093475);
     position: relative;
     overflow: hidden;
@@ -94,19 +94,20 @@ header nav:hover > a:not(:hover) {
 }
 
 .inicio .title {
+    border: solid white;
     position: absolute;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 57px;
+    font-size: 75px;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 15);
     font-family: 'merienda';
 }
 
 .inicio .title p{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'merienda';
 }
 

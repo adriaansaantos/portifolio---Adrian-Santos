@@ -1,15 +1,25 @@
 
 .projetos {
+    text-align: center;
+    padding-top: 100px;
+    background: #0c007b;
 }
-
+.projetos h1{
+    padding-bottom: 80px;
+    font-family: 'merienda';
+    color: white;
+    font-size: 40px;
+}
 .projetos-img {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px;
 }
 
-.projetos-img img {
-    width: 20%;
+.projetos-img img{
+    width: 30%;
     height: auto;
     margin-bottom: 20px;
-    
+    border-radius: 20px;
 }
