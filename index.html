@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/habilidades.css">
     <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contatos.css">
 
 </head>
 
@@ -21,10 +22,7 @@
             <a href="#Sobre">Sobre</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#projetos">Projetos</a>
-            <a href="#Contatos">Contatos</a>
-            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+            <a href="#contato">Contatos</a>
         </nav>
     </header>
 
@@ -122,21 +120,39 @@
                 <a href="#"><img src="./imagens/Novidades em breve post Instagram marrom.png" alt="Projetos em breve"></a>
                 <a href=""><img src="./imagens/Novidades em breve post Instagram marrom.png" alt="Projetos em breve"></a>
             </div>
-
         </div>
-
-
-
     </section>
+
+    <!--Contatos-->
+    <section Id="contato" class="Cont">
+        <div class="container">
+                <h1>Entre em Contato</h1>
+        </div>
+        <form id="myForm" action="#">
+            <div class="input-line">
+                <input  id="name" type="text" placeholder="Nome" class="input-name">
+                <input id="email" type="email" placeholder="E-mail"  class="input-name">
+            </div>
+            <input type="text" id="subject" placeholder="Assunto" class="input-subject">
+            <textarea id ="body" class="input-textarea" placeholder="Mensagem"></textarea>
+            <button type="button" id ="submit" value="send">Envie-me</button>
+        </form>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <p>Copyright 2024  | Adrian dos Santos ®</p>
+    </footer>
     
-    <!--Botao volta inicio-->
+    <!--Botao volta inicio
     <div data-scroll="suave" data-anima="scroll">
         
         <div class="img-voltatopo">
             <a href="#Topo"><img src="./imagens/pra-cima.png" alt="Voltar para o Inicío"></a> 
         </div>
     </div>
-    
+    -->
+
     <script src="./Js/script.js"></script>
     <script src="./Js/habilidades.js"></script>
     <script src="./Js/BotaoTopo.js"></script>

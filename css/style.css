@@ -117,6 +117,7 @@ header nav:hover > a:not(:hover) {
 .sobre {
     padding: 50px;
     background: #3B3291;
+    border-bottom: solid rgba(0, 192, 250, 0.377);
     color: white;
     position: relative;
     z-index: 1000;

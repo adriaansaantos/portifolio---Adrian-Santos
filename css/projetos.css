@@ -2,28 +2,28 @@
 .projetos {
     text-align: center;
     padding-top: 100px;
-    background: #0c007b;
+    background: #3B3291;
+    border-bottom: solid rgba(0, 192, 250, 0.377);
+    padding-top: 10%;
+    padding-bottom: 12%;
 }
+
 .projetos h1{
-    padding-bottom: 80px;
     font-family: 'merienda';
     color: white;
     font-size: 40px;
 }
 
 .projetos-img {
-    --border-image: fill 0 linear-gradient(#0001,#565656);
     display: flex;
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 20%;
+    padding-top: 100px;
 }
-
 
 .projetos-img img{
     width: 70%;
-    height: auto;
     margin-bottom: 20px;
     border-radius: 20px;
 }
