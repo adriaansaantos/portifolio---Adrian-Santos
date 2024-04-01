@@ -15,17 +15,38 @@
 
 <body>
     <header id="Topo">
-        <a id="inicio" href="./index.html"><img class="logo" src="./imagens/Logo consultoria de negócios moderno e preto.png" alt="logo Adrian"></a>
-        
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contatos</a>
+        <nav class="barra-nav">
+            <div class="logo">
+                <a href="./index.html"><img class="img-logo" src="./imagens/logo adrian.png" alt="logo Adrian"></a>
+            </div>
+
+            <div class="lista-nav">
+                <ul>
+                    <li class="item-nav"><a href="#inicio" class="link-nav">Início</a></li>
+                    <li class="item-nav"><a href="#Sobre" class="link-nav">Sobre</a></li>
+                    <li class="item-nav"><a href="#habilidades" class="link-nav">Habilidades</a></li>
+                    <li class="item-nav"><a href="#projetos" class="link-nav">Projetos</a></li>
+                    <li class="item-nav"><a href="#contato" class="link-nav">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="responsivo-icon">
+                <button onclick="botaomenu()"><img class="icon" src="./imagens/icon-menu.svg" alt="icone menu"></button>
+            </div>
         </nav>
+        <div class="menu-responsivo">
+            <ul>
+                <li class="item-nav"><a href="#inicio" class="link-nav">Início</a></li>
+                <li class="item-nav"><a href="#Sobre" class="link-nav">Sobre</a></li>
+                <li class="item-nav"><a href="#habilidades" class="link-nav">Habilidades</a></li>
+                <li class="item-nav"><a href="#projetos" class="link-nav">Projetos</a></li>
+                <li class="item-nav"><a href="#contato" class="link-nav">Contatos</a></li>
+            </ul>
+        </div>
     </header>
 
+
+<!--Aba Inicio-->
     <section class="inicio">
         <img id="mount2" src="/imagens/mount2.png" alt="montanha2">
         <img src="./imagens/mount1.png" class="montanha1">
@@ -46,9 +67,9 @@
         <div>
             <h1 >Sobre mim</h1>
             <br>
-            <p>Estudante de Desenvolvimento Web e de Sistemas para internet, residente atualmente em Araçatuba-SP, Brasil</p>
+            <p>Meu nome é Adrian dos Santos, sou Estudante de Desenvolvimento Web e de Sistemas para internet, residente atualmente em Araçatuba-SP, Brasil</p>
             <br>
-            <p>Tenho 22 anos atualmente cursando Tecnologia em Sistemas para a internet oferecido pelo Instituto Federal de São Paulo, meu entusiasmo pela tecnologia me trouxe até aqui onde posso explorar o vasto campo da programação e desenvolvimento de sistemas, e estou ansioso para traduzir minha paixão em soluções inovadoras.,</p>
+            <p>Tenho 22 anos atualmente cursando Ensino Superior em Tecnologia em Sistemas para a internet oferecido pelo Instituto Federal de São Paulo, meu entusiasmo pela tecnologia me trouxe até aqui onde posso explorar o vasto campo da programação e desenvolvimento de sistemas, e estou ansioso para traduzir minha paixão em soluções inovadoras.,</p>
             <br>
             <p>Estou buscando ativamente uma oportunidade como desenvolvedor júnior para aplicar e aprimorar minhas habilidades em um ambiente profissional. Estou empolgado para contribuir para projetos desafiadores, aprender com uma equipe talentosa e crescer profissionalmente nesta indústria empolgante.</p>
             <br>
@@ -140,22 +161,55 @@
     </section>
 
     <!--footer-->
-    <footer class="footer">
-        <p>Copyright 2024  | Adrian dos Santos ®</p>
+    <footer>
+       <div id="conteudo_footer">
+
+            <div id="conteudo_contatos">
+                <img src="./imagens/logo adrian.png" alt="logo Adrian">
+                <p>Sempre em busca de conhecimento...</p>
+
+                <div id="redes_sociais">
+                    <a href="#" class="footer_link" id="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer_link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-lista">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Aventuras</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Musicas</a>
+                </li>
+            </ul>
+        </div>
     </footer>
     
-    <!--Botao volta inicio
+    <!--Botao volta inicio-->
     <div data-scroll="suave" data-anima="scroll">
-        
         <div class="img-voltatopo">
             <a href="#Topo"><img src="./imagens/pra-cima.png" alt="Voltar para o Inicío"></a> 
         </div>
     </div>
-    -->
+    
 
     <script src="./Js/script.js"></script>
     <script src="./Js/habilidades.js"></script>
-    <script src="./Js/BotaoTopo.js"></script>
-    <script src=".//Js/animacao.scroll.js"></script>
+    <script src="./Js/botaomenu.js"></script>
 </body>
 </html>

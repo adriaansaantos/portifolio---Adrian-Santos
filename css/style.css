@@ -14,11 +14,11 @@
 .img-voltatopo{
     position: fixed;
     bottom: 50px;
-    right: -500px;
+    right: 0px;
 }
 
 .show-button .img-voltatopo{
-    right: 1px;
+    right: 0px;
 }
 
 * {
@@ -29,61 +29,98 @@
     scroll-behavior: smooth;
 }
 
-header {
+header{
+    background-color: #093475;
+    padding-bottom: 0.2rem;
+}
+
+.barra-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 150px;
-    padding-left: 1%;
-    padding-right: 5%;
-    position: absolute;
-    width: 100%;
-    z-index: 100;
+    padding: 1.5rem 6rem;
 }
 
-header .logo {
-    width: 50%;
-    margin-top: 50px;
+.img-logo{
+    width: 20rem;
 }
 
-header h1:hover{
-    text-decoration: underline rgba(1, 147, 196, 0.215);
-}
-
-header nav {
+.logo{
     display: flex;
-    gap: 15px;
+    align-items: center;
 }
 
-header nav a {
+.lista-nav{
+    display: flex;
+    align-items: center;
+}
+
+.lista-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.item-nav{
+    margin: 0 30px;
+}
+
+.link-nav{
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 750;
-    padding: 8px 20px;
-    border-radius: 99px;
-    transition: 0.3s;
+    font-size: 1.5rem;
     color: white;
+    font-family: 'Merienda';
 }
 
-header nav a.active {
-    background: rgba(255, 255, 255, 0.5);
+.responsivo-icon{
+    display: none;
 }
 
-header nav a:hover {
-    background: rgb(255, 255, 255);
-    color: #1a4991;
+.menu-responsivo{
+    display: none;
 }
 
-header nav:hover > a:not(:hover) {
-    background: none;
+@media screen and (max-width: 1300px) {
+    .barra-nav{
+        padding: 1.5rem 1rem;
+    }
+    .item-nav{
+        display: none;
+    }
+    .responsivo-icon{
+        display: block;
+    }
+    .responsivo-icon button{
+        margin-top: 3rem;
+        margin-right: 1.5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-responsivo ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .menu-responsivo .item-nav{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .abrir{
+        display: block;
+    }
 }
+
+
+
 
 .inicio {
     display: flex;
-    height: 115dvh;
+    height: 85dvh;
     background: linear-gradient(to top, #7284a4 20%, #093475);
     position: relative;
     overflow: hidden;
+    z-index: 100;
 }
 
 .inicio img {
@@ -95,23 +132,23 @@ header nav:hover > a:not(:hover) {
 
 .inicio .title {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 55px;
+    font-size: 3.5rem;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 15);
     font-family: 'merienda';
 }
 
 .inicio .title p{
-    font-size: 40px;
+    font-size: 3rem;
     font-family: 'merienda';
 }
 
 #IF{
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 .sobre {
@@ -120,7 +157,6 @@ header nav:hover > a:not(:hover) {
     border-bottom: solid rgba(0, 192, 250, 0.377);
     color: white;
     position: relative;
-    z-index: 1000;
     padding-top: 200px;
     padding-bottom: 400px;
     text-align: center;
@@ -134,46 +170,4 @@ header nav:hover > a:not(:hover) {
 
 .sobre p{
     font-size: 20px;
-}
-
-@media screen and (max-width: 768px) {
-    header img{
-        margin-left: 20%;
-        
-    }
-    header nav {
-        display: none;
-        position: fixed;
-        width: 100%;
-        background-color: #093475;
-        z-index: 1;
-    }
-    header nav a {
-        display: block;
-        text-align: center;
-        padding: 15px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    header nav a:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-    header nav.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .inicio{
-
-    }
-    .inicio .title {
-        font-size: 32px;
-    }
-    .inicio .title p {
-        font-size: 20px;
-    }
-    #IF {
-        font-size: 18px;
-    }
 }
