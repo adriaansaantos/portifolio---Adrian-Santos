@@ -26,4 +26,9 @@
     width: 80%;
     margin-bottom: 20px;
     border-radius: 20px;
+    transition: all 0.6s;
+}
+
+.projetos-img img:hover{
+    width: 90%;
 }

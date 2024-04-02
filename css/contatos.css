@@ -63,6 +63,7 @@ form{
     font-family: 'Merienda';
     font-size: 18px;
 }
+
 .input-textarea{
     width: 84%;
     padding:10px 20px;
@@ -76,6 +77,15 @@ form{
     font-family: 'Merienda';
     font-size: 18px;
 }
+
+.input-subject:hover,
+.input-subject:focus,
+.input-textarea:hover,
+.input-textarea:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.20rem #26344a;
+}
+
 form button{
     padding:8px 24px;
     font-family: poppins;
