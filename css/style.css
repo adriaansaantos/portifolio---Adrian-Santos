@@ -69,13 +69,12 @@ header{
     color: white;
     font-family: 'Merienda';
     padding: 5px;
+    transition: all 0.3s;
 }
 
 .link-nav:hover{
-    color: #093475;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    padding: 5px;
+    border-bottom: solid white;
+    border-radius: 20%;
 }
 
 .responsivo-icon{
@@ -147,11 +146,21 @@ header{
     font-size: 2.8rem;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 15);
     font-family: 'merienda';
+    padding-top: 8vh;
+    padding-bottom: 4vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:solid rgba(0, 0, 0, 0.058);
+
 }
 
 .inicio .title p{
     font-size: 2rem;
     font-family: 'merienda';
+    
 }
 
 #IF{
@@ -178,4 +187,10 @@ header{
 
 .sobre p{
     font-size: 20px;
+}
+
+.aba-sobre img{
+    width: 30vh;
+    margin-bottom: 5vh;
+    border-radius: 20px;
 }
