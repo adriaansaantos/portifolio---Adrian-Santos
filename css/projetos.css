@@ -12,23 +12,24 @@
     font-family: 'merienda';
     color: white;
     font-size: 40px;
+    margin-bottom: 10vh;
 }
 
 .projetos-img {
     display: flex;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vh;
+
 }
 
 .projetos-img img{
-    width: 80%;
+    width: 30vh;
     margin-bottom: 20px;
     border-radius: 20px;
     transition: all 0.6s;
 }
 
 .projetos-img img:hover{
-    width: 90%;
+    width: 40vh;
 }

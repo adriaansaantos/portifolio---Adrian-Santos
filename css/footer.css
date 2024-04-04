@@ -1,15 +1,13 @@
 
 *{
     font-family: 'Merienda';
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 #logo img{
     width: 40vh;
 }
 
 #conteudo_footer{
+    display: flex;
     background-color: rgb(12, 6, 72);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -59,8 +57,7 @@
     list-style: none;
     border-right: solid white 0.5px;    
     border-left: solid white 0.5px;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 5rem;
 
 }
 
@@ -74,7 +71,7 @@
 .footer-projetos .footer-link:hover{
     color: white;
     opacity: 1;
-    font-size: 1.2rem;
+    font-size: 2.5vh;
 }
 
 #footer_subscribe{

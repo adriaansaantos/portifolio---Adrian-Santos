@@ -1,0 +1,9 @@
+.volta_topo{
+    position: fixed;
+    bottom: 8vh;
+    right: 5vh;
+}
+
+.volta_topo img{
+    width: 9vh;
+}
