@@ -7,3 +7,13 @@
 .volta_topo img{
     width: 9vh;
 }
+
+@media screen and (max-width:440px){
+    .volta_topo{
+        right: 1vh;
+        bottom: 8.5vh;
+    }
+    .volta_topo img{
+        width: 6vh;
+    }
+}

@@ -2,21 +2,6 @@
     font-family: 'Merienda';
     src: url(../fontes/Merienda-VariableFont_wght.ttf);
 }
-
-.img-voltatopo img{
-    width: 50%;
-}
-
-.img-voltatopo{
-    position: fixed;
-    bottom: 50vh;
-    right: 0px;
-}
-
-.show-button .img-voltatopo{
-    right: 0px;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +12,7 @@
 
 header{
     background-color: #093475;
+    height: 20vh;
 }
 
 .barra-nav {
@@ -36,12 +22,7 @@ header{
 }
 
 .img-logo{
-    width: 40vh;
-}
-
-.logo{
-    display: flex;
-    align-items: center;
+    width: 35vh;
 }
 
 .lista-nav{
@@ -81,9 +62,9 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 1300px) {
-    .barra-nav{        
-        background-color: transparent;
+@media screen and (max-width: 1450px) {
+    
+    .barra-nav{
         padding: 1.5rem 1rem;
     }
     .item-nav{
@@ -93,8 +74,8 @@ header{
         display: block;
     }
     .responsivo-icon button{
-        margin-top: 3rem;
-        margin-right: 1.5rem;
+        padding-top: 10vh;
+        margin-right: 0.2rem;
         background-color: transparent;
         border: none;
         cursor: pointer;
@@ -104,10 +85,12 @@ header{
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        box-shadow: 10px 5px 5px rgb(255, 255, 255);
     }
     .menu-responsivo .item-nav{
         display: block;
         padding-top: 1.2rem;
+        
     }
     .abrir{
         display: block;
@@ -117,11 +100,11 @@ header{
 .inicio {
     display: flex;
     justify-content: center;
-    height: 87dvh;
+    height: 85vh;
     background: linear-gradient(to top, #7284a4 20%, #093475);
     position: relative;
     overflow: hidden;
-    z-index: 100;
+    z-index: 10
 }
 
 .inicio img {
@@ -129,6 +112,9 @@ header{
     bottom: 0;
     width: 100%;
     pointer-events: none;
+}
+.inicio .arbusto1{
+    padding-bottom: 6vh;
 }
 
 .inicio .title {
@@ -140,7 +126,7 @@ header{
     font-size: 7vh;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 15);
     font-family: 'merienda';
-    padding-top: 4vh;
+    padding-top: 12vh;
 }
 
 .inicio .title p{
@@ -150,6 +136,11 @@ header{
 
 #IF{
     font-size: 3vh;
+    padding-top: 40px;
+}
+
+#seta{
+    font-size: 5vh;
 }
 
 .sobre {
@@ -181,11 +172,82 @@ header{
 }
 
 .divbotao{
+    padding-top: 10vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 2vh;
+    gap: 10vh;
     justify-content: center;
+
 }
-.divbotao .button {
-    
+
+.botaodesliza button{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.botaodesliza {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: #3B3291;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 23px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #003f9e;
+    -webkit-transition: ease-out 0.6s;
+    -moz-transition: ease-out 0.6s;
+    transition: ease-out 0.9s;
+  }
+.botaodesliza:hover {
+    box-shadow: inset 400px 0 0 0 #00183d;
+}  
+
+@media screen and (max-width:450px){
+    .img-logo{
+        width: 35vh;
+    }
+    .inicio h1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2vh;
+    }
+    .inicio .title{
+        padding-top: 10vh;
+        font-size: 4vh;
+        
+    }
+    .inicio .title p{
+        font-size: 2.8vh;
+    }
+    .inicio hr{
+        width: 30vh;
+    }
+    #IF{
+        font-size: 2vh;
+    }
+    .inicio {
+        height: 67vh;
+    }
+    .sobre {
+        padding-top: 40vh;
+    }
+}
+@media screen and (max-width:1200px){
+    .inicio .arbusto1{
+        padding-bottom: 4vh;
+    }
+}
+@media screen and (max-width:950px){
+    .inicio .arbusto1{
+        padding-bottom: 1vh;
+    }
+
 }
