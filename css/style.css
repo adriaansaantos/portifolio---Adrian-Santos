@@ -47,6 +47,7 @@ header{
     font-family: 'Merienda';
     padding: 5px;
     transition: all 0.3s;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.685);
 }
 
 .link-nav:hover{
@@ -108,7 +109,7 @@ header{
     background: linear-gradient(to top, #7284a4 20%, #093475);
     position: relative;
     overflow: hidden;
-    z-index: 10
+    z-index: 10;
 }
 
 .inicio img {
@@ -128,7 +129,7 @@ header{
     text-align: center;
     color: white;
     font-size: 7vh;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 15);
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.685);
     font-family: 'merienda';
     padding-top: 12vh;
 }
@@ -161,12 +162,15 @@ header{
 .sobre h1 {
     font-family: 'Merienda';
     font-size: 40px;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.685);
     box-shadow: solid black;
     padding-bottom: 1rem;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.685);
 }
 
 .sobre p{
     font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.685);
 }
 
 .aba-sobre img{
@@ -191,6 +195,7 @@ header{
     background-color: transparent;
     border: none;
     font-size: 23px;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.685);
     cursor: pointer;
 }
 
@@ -198,11 +203,8 @@ header{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 15px;
     background-color: #3B3291;
-    padding: 18px 36px;
+    padding: 9px 28px;
     display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 23px;
-    letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #003f9e;
     -webkit-transition: ease-out 0.6s;
